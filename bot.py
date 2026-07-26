@@ -1,7 +1,7 @@
 import discord
 from discord.ext import commands
 
-TOKEN = ' MTUzMDczMjIzMjM1MDYzNDA5NA.GqXz2X.OEGO1AC-Qdhi_RSZwtIKU1Tq4ZxXPEs61Tt0uM '
+TOKEN = 'TOKEN'
 
 KANAL_LOGOW = 1417656464209608704
 
