@@ -28,6 +28,9 @@ def keep_alive():
 # ------------------------------------
 
 TOKEN = os.getenv("TOKEN")
+
+if not TOKEN:
+    raise Exception("Brak TOKEN w zmiennych środowiskowych Render!")
 KANAL_LOGOW = 1417656464209608704
 
 intents = discord.Intents.default()
