@@ -1,7 +1,11 @@
 import discord
 from discord.ext import commands
 
-TOKEN = 'TOKEN'
+import os
+
+TOKEN = os.getenv("TOKEN")
+
+bot.run(TOKEN)
 
 KANAL_LOGOW = 1417656464209608704
 
