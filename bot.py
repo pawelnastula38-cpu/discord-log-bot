@@ -62,7 +62,7 @@ async def on_member_remove(member):
 
     if kanal:
         await kanal.send(
-            f"📤 **{member.name}** opuścił serwer."
+            f"📤 **{member.name}** opuścił nas 😒."
         )
 
 
