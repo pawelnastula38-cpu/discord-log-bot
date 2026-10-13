@@ -62,7 +62,7 @@ async def on_member_remove(member):
 
     if kanal:
         await kanal.send(
-            f"📤 **{member.name}** sniper to cwel ."
+            f"📤 **{member.name}** sniper to cwel oraz kolorowy ."
         )
 
 
